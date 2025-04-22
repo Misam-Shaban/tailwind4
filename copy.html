@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 🧠 Meta Tags for SEO & Responsiveness -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A simple responsive photo gallery using Tailwind CSS" />
+    <meta name="keywords" content="Tailwind CSS, gallery, responsive, HTML" />
+    <meta name="author" content="Misam Shaban" />
+
+    <!-- 🌐 Title -->
+    <title>Photo Gallery - Tailwind CSS</title>
+
+    <!-- 🌈 Tailwind CSS -->
+    <link rel="stylesheet" href="output.css" />
+  </head>
+
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <!-- 🌟 Header -->
+    <header class="text-center py-8 bg-green-400 shadow">
+      <h1 class="text-3xl font-bold">📸 My Photo Gallery</h1>
+      <p class="text-gray-600">A responsive layout built with Tailwind CSS</p>
+    </header>
+
+    <!-- 🖼️ Gallery Section -->
+    <main class="max-w-6xl mx-auto px-4 py-10">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- 🌠 Image Card (Repeat as needed) -->
+        <div class="overflow-hidden rounded-xl shadow hover:shadow-lg transition duration-300">
+          <img
+            src="image-code.jpg"
+            alt="Nature scenery"
+            class="w-full h-auto hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+
+        <div class="overflow-hidden rounded-xl shadow hover:shadow-lg transition duration-300">
+          <img
+            src="image-code.jpg"
+            alt="City view"
+            class="w-full h-auto hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+
+        <div class="overflow-hidden rounded-xl shadow hover:shadow-lg transition duration-300">
+          <img
+            src="image-code.jpg"
+            alt="Beach view"
+            class="w-full h-auto hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+
+        <div class="overflow-hidden rounded-xl shadow hover:shadow-lg transition duration-300">
+          <img
+            src="image-code.jpg"
+            alt="Mountain view"
+            class="w-full h-auto hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <!-- 🔁 Add more as needed -->
+      </div>
+    </main>
+
+    <!-- 📌 Footer -->
+    <footer class="text-center py-6 bg-white text-gray-500 text-sm mt-10 border-t">
+      © 2025 Misam Shaban. All rights reserved.
+    </footer>
+  </body>
+</html>
